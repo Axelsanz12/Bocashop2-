@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="../css/style-formulario.css">
+</head>
+<body>
+    <div id="soysocio">
+    <h1>Complete la información</h1>
+    <form action="https://formspree.io/f/mblrvqzb" method="post">
+        <Fieldset>
+            <Legend><b>Datos Personales</b></Legend>
+            
+            <label for="nombre">Nombre [*]</label>
+            <input type="text" id="" name="" size="10" maxlength="15" required>
+           
+            <label for="apellido">Apellido [*]</label>
+            <input type="text" id="" name="" size="10" maxlength="15" required> <br><br>
+           
+            <label for="dni">DNI</label>
+            <input type="password" name="tram_dni" id="" required>
+           
+            <label for="fec_nac">Fecha de Nacimiento</label>
+            <input type="date" name="fec_nac" id="" required> <br><br>
+           
+            <label for="TIPO DE SOCIO">SOCIO</label>
+            <select name="Socio" id="">
+                <option value="Activo">Activo</option>
+                <option value="adherente">adherente</option>
+                <option value="vitalicio">vitalicio</option>
+                
+            </select> 
+            <label for="correo">E-mail</label>
+            <input type="email" name="correo" id="">
+           
+            <label for="adjunto">Adjuntar foto</label>
+            <input type="file" name="adjunto" id=""> 
+        
+        </Fieldset>
+        <br>
+              
+        <br>
+        </select>
+       
+        <label for="rb">Zona de Residencia</label>
+        <input type="radio" name="rb" id="" value="1">CABA
+        <input type="radio" name="rb" id="" value="2">Gran Bs. As.
+        <input type="radio" name="rb" id="" value="3">Provincia de Bs As.
+        <input type="radio" name="rb" id="" value="4">Interior del país
+        <br><br>
+        <label for="comentarios">Escriba su consulta</label> <br>
+        <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Escriba aquí su consulta (max 300 caracteres)"></textarea>
+        <br>
+             
+        <input type="checkbox" name="condiciones" id="" required>
+        <section id="caja1"></section>
+        Acepto los términos y condiciones <br><br>
+        <input type="submit" value="Enviar Datos">
+        <input type="reset" value="Borrar">
+        
+    </div>
+    </form>
+
+    
+  
+    
+<footer>
+    <p>&copy; 2024 Axel Sanz. Todos los derechos reservados.</p>
+    <p>Contacto Brandsen 805 - CABA CUIT: 30-52541883-5</p>
+         <p class="azul">CLUB ATLETICO BOCA JUNIORS ASOC CIVIL</p>
+    <p class="azul">Gracias por visitarnos</p>
+</footer>
+    
+</body>
+</html>

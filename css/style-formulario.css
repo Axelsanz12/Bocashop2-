@@ -1,0 +1,36 @@
+body {
+    background-image: url(../img/fondo\ addicas.jpg);
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+ }
+
+#soysocio {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 50px;
+}
+
+#contenedor-lista1 a {
+    color: rgb(221, 236, 11);
+    background-color: rgb(0, 54, 102);
+    font-size: 25px;
+    margin: 50px;
+}
+
+p {
+    color: aliceblue;
+}
+
+#caja1 {
+    
+        width: 1200px;
+        height: 250px;
+        background-image: url(../img/vino.png);
+        border: 30px solid ; 
+        margin: 100px;  
+        float: right;
+        overflow: auto;
+    
+}

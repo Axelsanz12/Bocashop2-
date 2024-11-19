@@ -1,0 +1,153 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+        background-color: rgb(0, 0, 0);
+       /* background-image: url("../img/fondo.png");
+        */font-family: "Sofia Sans Extra Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:400;
+        font-style: normal;
+}
+
+p {
+    color: rgb(250, 250, 247);
+    
+    font-size: 20px;
+}
+
+.azul {
+    color: rgb(240, 240, 243);
+     font-size: 25px;
+     
+}
+.titulos {
+    font-size: 50px;
+    width: 100%;
+    color: rgb(230, 226, 8);
+    background-color: rgb(6, 0, 61);
+    margin: 0%;
+    
+
+}
+.tamaño {
+    display: block;
+    font-size: 30px;
+
+}
+
+#contenedor-lista a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;  
+}
+
+#caja1 {
+        
+         width: 700px;
+        height: 900px;
+        background-image : url(../img/BANNER\ MASCULINO.png);
+        border: 10px solid ; 
+        float: right;
+        background-size: cover;
+        
+        
+}
+#caja2  {
+ 
+        width: 700px;
+        height: 900px;
+        background-image: url(../img/BANNER\ FEMENINO.png);
+        border: 10px solid ; 
+        margin: 10px;  
+        float: left;
+        background-size: cover; 
+         
+        
+}
+#caja3 {
+ 
+        width: 700px;
+        height: 900px;
+        background-image: url(../img/BocaShop2023_Categorías_01_NINIO.webp);
+        border: 10px solid ; 
+        margin: 10px;
+        background-size: cover; 
+}
+
+ #imagen  {
+    background-color: #f1f9ff;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight:bold ;
+
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.centrado {
+       width: 0%;
+       padding: 0%;
+}
+
+.menu-section {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid hsl(0,0%);
+
+
+}
+
+.menu-simple-menu ul {
+    display: flex;
+     list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    background: rgb(4, 145, 138);
+}
+    
+.menu-simple-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-simple-menu li a:hover{
+    display: block;
+    text-decoration: none;
+    color: #f1f9ff;
+    padding: .6em 1em;
+    background: burlywood;
+}
+
+.menu-simple-menu li {
+    flex: 1 0 auto;
+    text-align: center;
+}
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+}
+.banner2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+
+.boca {
+    display: inline-block;
+    background-color: #03224b;
+    color: #f1f9ff;
+    padding: 10 px 20px;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#cajaprincipal {
+    background-image: url(/img/vino.png);
+}

@@ -1,0 +1,97 @@
+
+body {
+  background-image: url(/img/fondo\ addicas.jpg);
+   font-family: "Sofia Sans Extra Condensed", sans-serif;
+   font-optical-sizing: auto;
+   font-weight:400;
+   font-style: normal;
+}
+
+#caja1 {
+    width: 1270px;
+    height: 300px;
+    background-image: url(../img/completo\ conjunto.png);
+    border: 20px solid ; 
+    margin: 90px;  
+}
+#Caja2 {
+    width: 1270px;
+    height: 300px;
+    background-image: url(../img/caja2.png);
+    border: 20px solid ; 
+    margin: 90px;  
+}
+#caja3 {
+    width: 1200px;
+    height: 250px;
+    background-image: url(../img/caja3.png);
+    border: 30px solid ; 
+    margin: 100px;  
+}
+
+p {
+    color: rgb(221, 236, 11);
+    font-size: 25px;
+    margin: 50px;
+}
+#contenedor-lista1 a {
+    color: rgb(239, 240, 230);
+    background-color: rgb(0, 54, 102);
+    font-size: 25px;
+    margin: 50px;
+}
+#soysocio {
+    color: aliceblue;
+
+}
+#caja4 {
+    width: 1200px;
+    height: 250px;
+    background-image: url(../img/mujer1.png);
+    border: 30px solid ; 
+    margin: 100px;  
+}
+#Caja5 {
+    width: 1200px;
+    height: 250px;
+    background-image: url(../img/mujer2.png);
+    border: 30px solid ; 
+    margin: 100px;  
+}
+#caja6 {
+    width: 1200px;
+    height: 250px;
+    background-image: url(../img/mujer3.png);
+    border: 30px solid ; 
+    margin: 100px;  
+}
+#caja7 {
+    width: 1200px;
+    height: 250px;
+    background-image: url(../img/niño1.png);
+    border: 30px solid ; 
+    margin: 100px;  
+}
+#caja8 {
+    width: 1200px;
+    height: 250px;
+    background-image: url(../img/niño2.png);
+    border: 30px solid ; 
+    margin: 100px;  
+}
+p {
+    color: aliceblue;
+}
+  
+.centrado {
+    margin: 0 auto;
+    padding: 0 1m;
+}
+
+.menu-section {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: rgb(1, 29, 66);
+
+}
